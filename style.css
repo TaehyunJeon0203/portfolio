@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+.header {
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    background-color: #343a40;
+    color: white;
+}
+
+.header-title {
+    margin-left: 10px;
+    font-size: 2rem;
+}
+
+.nav {
+    margin: auto;
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.nav-item {
+    margin-left: 25px;
+}
