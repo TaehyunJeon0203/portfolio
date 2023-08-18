@@ -1,4 +1,10 @@
+@font-face {
+    font-family: 'Noto_Sans_KR';
+    src: url('fonts/Noto_Sans_KR/static/NotoSansKR-Regular.ttf') format('truetype');
+}
+
 body {
+    font-family: 'Noto_Sans_KR';
     margin: 0;
 }
 .header {
