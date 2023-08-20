@@ -1,13 +1,18 @@
 @font-face {
-    font-family: 'Noto_Sans_KR';
+    font-family: 'NotoSansKR';
     src: url('fonts/Noto_Sans_KR/static/NotoSansKR-Regular.ttf') format('truetype');
 }
 
 body {
-    font-family: 'Noto_Sans_KR';
+    font-family: 'NotoSansKR';
     margin: 0;
+    padding-top: 4rem;
 }
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 4rem;
     width: 100%;
     border-bottom: 1px solid black;
@@ -18,14 +23,15 @@ body {
 }
 
 .header-title {
-    margin-left: 30px;
-    font-size: 1.7rem;
+    margin-left: 400px;
+    font-size: 1.5rem;
 }
 
 .nav {
-    margin: auto;
+    margin-left: auto;
+    margin-right: 400px;
     display: flex;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .nav-item {
