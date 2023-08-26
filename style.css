@@ -53,12 +53,17 @@ body {
     margin-left: 40px;
 }
 
-.home {
+.home-wrapper {
     padding-top: 4.5rem;
     height: 100vh;
     background-color: #023327;
     color: #FBF7F4;
     text-align: center;
+}
+
+.home {
+    width: 800px;
+    margin: 0 auto;
 }
 
 .home-mainImage-wrapper {
@@ -74,4 +79,21 @@ body {
     max-height: 100%;
     border-radius: 10%;
     filter: brightness(85%);
+}
+
+.home-name {
+    font-size: 1.7rem;
+}
+
+.home-progress{
+    margin: 0 auto;
+    height: 0.2rem;
+    width: 30rem;
+    border-radius: 15%;
+    background-color: gray;
+    
+}
+
+.home-progress-bar {
+
 }
