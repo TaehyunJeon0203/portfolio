@@ -3,6 +3,11 @@
     src: url('fonts/Noto_Sans_KR/static/NotoSansKR-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'alfaSlab';
+    src: url('fonts/alfa-slab/AlfaSlabOne-Regular.ttf') format('truetype');
+}
+
 body {
     font-family: 'NotoSansKR';
     margin: 0;
@@ -33,7 +38,8 @@ body {
 
 .header-title {
     margin-left: 400px;
-    font-size: 1.5rem;
+    font-family: 'alfaSlab';
+    font-size: 1.7rem;
 }
 
 .nav {
