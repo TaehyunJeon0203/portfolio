@@ -53,6 +53,11 @@ body {
     margin-left: 40px;
 }
 
+.nav-item:hover {
+    color: #bbb;
+    cursor: pointer;
+}
+
 .home-wrapper {
     padding-top: 4.5rem;
     height: 100vh;
