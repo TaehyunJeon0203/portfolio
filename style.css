@@ -81,19 +81,42 @@ body {
     filter: brightness(85%);
 }
 
+.home-name-wrapper {
+    padding-bottom: 2rem;
+    text-align: left;
+    margin-left: 10rem;
+}
+
 .home-name {
     font-size: 1.7rem;
+}
+
+.home-name-en {
+    font-size: 1rem;
+    color: #bbb;
 }
 
 .home-progress{
     margin: 0 auto;
     height: 0.2rem;
     width: 30rem;
-    border-radius: 15%;
-    background-color: gray;
-    
+    border-radius: 10px;
+    background-color: #4d4d4d;
 }
 
 .home-progress-bar {
+    height: 0.2rem;
+    width: 23%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    z-index: 100;
+}
 
+.home-progress-dayWrapper {
+    display: flex;
+    font-size: 0.9rem;
+}
+
+.home-progress-retire {
+    margin-left: auto;
 }
