@@ -37,20 +37,20 @@ body {
 }
 
 .header-title {
-    margin-left: 400px;
+    margin-left: 20px;
     font-family: 'alfaSlab';
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .nav {
     margin-left: auto;
-    margin-right: 400px;
+    margin-right: 20px;
     display: flex;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .nav-item {
-    margin-left: 40px;
+    margin-left: 25px;
 }
 
 .nav-item:hover {
@@ -67,14 +67,14 @@ body {
 }
 
 .home {
-    width: 800px;
+    width: 430px;
     margin: 0 auto;
 }
 
 .home-mainImage-wrapper {
     padding-top: 7rem;
     padding-bottom: 2rem;
-    width: 30rem;
+    width: 22rem;
     border: 0;
     margin: 0 auto;
 }
@@ -82,18 +82,29 @@ body {
 .home-mainImage {
     max-width: 100%;
     max-height: 100%;
-    border-radius: 10%;
+    border-radius: 4%;
     filter: brightness(85%);
+} 
+
+.home-status {
+    width: 25rem;
+    height: 9rem;
+    margin-top: 1rem;
+    background-color: #00281C;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    border: 0;
+    border-radius: 20px;
 }
 
 .home-name-wrapper {
-    padding-bottom: 2rem;
-    text-align: left;
-    margin-left: 10rem;
+    padding-top: 0.8rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
 }
 
 .home-name {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 }
 
 .home-name-en {
@@ -101,16 +112,16 @@ body {
     color: #bbb;
 }
 
-.home-progress{
+.home-progress {
     margin: 0 auto;
-    height: 0.2rem;
-    width: 30rem;
+    height: 0.4rem;
+    width: 18rem;
     border-radius: 10px;
     background-color: #4d4d4d;
 }
 
 .home-progress-bar {
-    height: 0.2rem;
+    height: 0.4rem;
     width: 23%;
     border-radius: 10px;
     background-color: #ffffff;
@@ -124,4 +135,124 @@ body {
 
 .home-progress-retire {
     margin-left: auto;
+}
+
+@media ( min-width: 1024px ) {
+    body {
+        font-family: 'NotoSansKR';
+        margin: 0;
+    }
+    
+    .header {
+        width: 100%;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: center;
+        background-color: #000000;
+        color: #FBF7F4;
+        transition: all .5s;
+    }
+    
+    .header-fixed {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 4.5rem;
+    }
+    
+    .header-scrolling {
+        position: fixed;
+        top: 0;
+        height: 3.5rem;
+    }
+    
+    .header-title {
+        margin-left: 400px;
+        font-family: 'alfaSlab';
+        font-size: 1.7rem;
+    }
+    
+    .nav {
+        margin-left: auto;
+        margin-right: 400px;
+        display: flex;
+        font-size: 0.9rem;
+    }
+    
+    .nav-item {
+        margin-left: 40px;
+    }
+    
+    .nav-item:hover {
+        color: #bbb;
+        cursor: pointer;
+    }
+    
+    .home-wrapper {
+        padding-top: 4.5rem;
+        height: 100vh;
+        background-color: #023327;
+        color: #FBF7F4;
+        text-align: center;
+    }
+    
+    .home {
+        width: 800px;
+        margin: 0 auto;
+    }
+    
+    .home-mainImage-wrapper {
+        padding-top: 7rem;
+        padding-bottom: 2rem;
+        width: 30rem;
+        border: 0;
+        margin: 0 auto;
+    }
+    
+    .home-mainImage {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 10%;
+        filter: brightness(85%);
+    }
+    
+    .home-name-wrapper {
+        padding-bottom: 2rem;
+        text-align: left;
+        margin-left: 10rem;
+    }
+    
+    .home-name {
+        font-size: 1.7rem;
+    }
+    
+    .home-name-en {
+        font-size: 1rem;
+        color: #bbb;
+    }
+    
+    .home-progress{
+        margin: 0 auto;
+        height: 0.2rem;
+        width: 30rem;
+        border-radius: 10px;
+        background-color: #4d4d4d;
+    }
+    
+    .home-progress-bar {
+        height: 0.2rem;
+        width: 23%;
+        border-radius: 10px;
+        background-color: #ffffff;
+        z-index: 100;
+    }
+    
+    .home-progress-dayWrapper {
+        display: flex;
+        font-size: 0.9rem;
+    }
+    
+    .home-progress-retire {
+        margin-left: auto;
+    }
 }
