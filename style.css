@@ -34,6 +34,7 @@ body {
     position: fixed;
     top: 0;
     height: 3.5rem;
+    z-index: 1;
 }
 
 .header-title {
@@ -72,7 +73,7 @@ body {
 }
 
 .home-mainImage-wrapper {
-    padding-top: 7rem;
+    padding-top: 3rem;
     padding-bottom: 2rem;
     width: 22rem;
     border: 0;
