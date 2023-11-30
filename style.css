@@ -216,11 +216,17 @@ body {
         border-radius: 10%;
         filter: brightness(85%);
     }
+
+    .home-status {
+        visibility: hidden;
+    }
+
+    .home-status div {
+        visibility: visible;
+    }
     
     .home-name-wrapper {
         padding-bottom: 2rem;
-        text-align: left;
-        margin-left: 10rem;
     }
     
     .home-name {
@@ -232,8 +238,7 @@ body {
         color: #bbb;
     }
     
-    .home-progress{
-        margin: 0 auto;
+    .home-progress {
         height: 0.2rem;
         width: 30rem;
         border-radius: 10px;
