@@ -25,7 +25,7 @@ window.addEventListener(`wheel`, function(e) {
         }
     }
 
-    // 새로운 페이지의 위치 계산 및 애니메이션 설정
+    // 새로운 페이지의 위치계산 및 애니메이션 설정
     let posTop = (page -1) * this.window.innerHeight;
     html.scrollTo({ top: posTop, behavior: 'smooth' });
 });
