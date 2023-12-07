@@ -14,11 +14,15 @@ window.addEventListener(`wheel`, function(e) {
 
     // 마우스 휠 방향에 따라 페이지 이동
     if (e.deltaY > 0) {
-        if (page == lastPage) return;
-        page++;
+        if (page == lastPage) {
+            return;
+            page++;
+        }
     } else if (e.deltaY < 0) {
-        if (page == 1) return;
-        page--;
+        if (page == 1) {
+            return;
+            page--;
+        }
     }
 
     // 새로운 페이지의 위치 계산 및 애니메이션 설정
