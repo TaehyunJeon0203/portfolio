@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Editor / OS
+.idea/
+.vscode/
+
+# Local tooling
+.claude/
+.omc/
+
+# Build artifacts
+node_modules/
+package.json
+package-lock.json
+pretext-entry.js
+
+# Submission archives
+*.zip
+
+# Course materials
+웹프로그래밍_과제공지.pdf
